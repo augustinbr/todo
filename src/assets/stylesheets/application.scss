@@ -1,0 +1,92 @@
+// color :
+// violet: 654062
+// yellow: ffd66b
+// orange: ff9d72
+// white: f4f4f4
+// grey: a6a9b6
+.App {
+    background-color: #ff9d72;
+    height: 1000px;
+}
+
+//// user input /////
+.input {
+    // border: solid 2px #ffd66b;
+    // border-radius: 5px;
+    border: 1px solid #f4f4f4;
+    width: 185px;
+    text-align: left;
+    padding: 2px 0px 2px 7px;
+    background-color: #f4f4f4;
+    color: #ff9d72;
+    font-family: "Ubuntu", sans-serif;
+    font-size: 20px;
+    height: 25px;
+    margin-top: 5px;
+    filter: drop-shadow(0px 3px 2px #a6a9b6);
+    margin: 7px auto;    
+}
+
+.input__form {
+    display: inline-flex;
+    align-items: center;
+}
+
+
+
+
+.title {
+    font-family: "Unbuntu", sans-serif;
+    color: #f4f4f4;
+    padding-top: 15px;
+    font-style: oblique;
+}
+
+.btn__submit {
+    color: #ffd66b;
+    border: solid 2px #f4f4f4;
+    height: 33px;
+    padding: 0px 10px 0px 10px;
+    background: #f4f4f4;
+    margin-left: 4px;
+    filter: drop-shadow(0px 3px 2px #a6a9b6);   
+}
+
+//// User input ////
+
+
+//// Todo /////
+
+.list {
+    list-style: none;
+    padding: 0px;
+}
+
+.list__item {
+    border: solid 2px  #f4f4f4 ;
+    width: 185px;
+    text-align: left;
+    padding: 2px 0px 2px 7px;
+    background-color: #f4f4f4;
+    color: #ff9d72;
+    font-family: "Ubuntu", sans-serif;
+    font-size: 20px;
+    height: 25px;
+    margin-top: 5px;
+    filter: drop-shadow(0px 3px 2px #a6a9b6);
+    margin: 7px auto;
+}
+
+.btn_todo {
+    border: solid 2px #f4f4f4;
+    height: 35px;
+    padding: 0px 10px 0px 10px;
+    background: #f4f4f4;
+    margin-left: 4px;
+    filter: drop-shadow(0px 3px 2px #a6a9b6);   
+}
+
+.item__todo {
+    display: inline-flex;
+    align-items: center;
+}
